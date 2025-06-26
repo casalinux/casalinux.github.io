@@ -89,9 +89,12 @@ function App() {
         <div className={`mt-16 text-center transition-all duration-1000 delay-900 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <p className="text-green-300 text-sm">
             Feito com ❤️ para a comunidade brasileira
+            casalinuxos@gmail.com
           </p>
           <p className="text-green-400 text-xs mt-2">
             © 2024 Casa Linux - Todos os direitos reservados
+            Professor Fábio Dias Silveira
+            fabio140185@gmail.com
           </p>
         </div>
       </div>
