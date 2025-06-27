@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Button } from '@/components/ui/button.jsx'
-import { Download, Monitor, Terminal, Settings, Leaf } from 'lucide-react'
+import { Download, Monitor, Terminal, Settings, Leaf, Globe, BookOpen } from 'lucide-react'
 import casaLinuxLogo from './assets/Casa_Linux_1.0.png'
 import './App.css'
 
@@ -12,7 +12,7 @@ function App() {
   }, [])
 
   const handleDownload = () => {
-    window.open('https://drive.google.com/drive/folders/1TGjBe_jMx4FmhoJRDxMIaRISrmdm1YLL?usp=sharing', '_blank')
+    window.open('https://drive.google.com/drive/folders/1TGjBe_jMx4FmhoJRDxMIaRISrmdm1YLL?usp=sharing', '_blank' )
   }
 
   return (
@@ -87,14 +87,21 @@ function App() {
 
         {/* Footer */}
         <div className={`mt-16 text-center transition-all duration-1000 delay-900 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+          <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-4">
+            <a href="https://casalinuxos.blogspot.com/" target="_blank" rel="noopener noreferrer" className="text-green-300 hover:text-green-100 transition-colors duration-200 flex items-center">
+              <BookOpen className="w-5 h-5 mr-2" />
+              Blog Casa Linux
+            </a>
+            <a href="https://casalinux.github.io/" target="_blank" rel="noopener noreferrer" className="text-green-300 hover:text-green-100 transition-colors duration-200 flex items-center">
+              <Globe className="w-5 h-5 mr-2" />
+              Site Oficial
+            </a>
+          </div>
           <p className="text-green-300 text-sm">
             Feito com ❤️ para a comunidade brasileira
-            / Contato: casalinuxos@gmail.com
           </p>
           <p className="text-green-400 text-xs mt-2">
             © 2024 Casa Linux - Todos os direitos reservados
-            Professor Fábio Dias Silveira
-            / Contato: fabio140185@gmail.com
           </p>
         </div>
       </div>
@@ -105,8 +112,7 @@ function App() {
       <div className="absolute bottom-1/4 left-1/5 w-2 h-2 bg-emerald-400 rounded-full animate-pulse delay-500"></div>
       <div className="absolute bottom-1/3 right-1/4 w-3 h-3 bg-green-400 rounded-full animate-pulse delay-1500"></div>
     </div>
-  )
+   )
 }
 
 export default App
-
