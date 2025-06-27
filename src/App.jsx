@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Button } from '@/components/ui/button.jsx'
-import { Download, Monitor, Terminal, Settings, Leaf, Globe, BookOpen } from 'lucide-react'
+import { Download, Monitor, Terminal, Settings, Leaf, Globe, BookOpen, Mail } from 'lucide-react'
 import casaLinuxLogo from './assets/Casa_Linux_1.0.png'
 import './App.css'
 
@@ -81,7 +81,7 @@ function App() {
             Baixar Casa Linux
           </Button>
           <p className="text-green-200 text-sm mt-4 text-center">
-            Versão 1.0 - Gratuito e Open Source
+            Versão 1.1 - Gratuito e Open Source
           </p>
         </div>
 
@@ -96,6 +96,15 @@ function App() {
               <Globe className="w-5 h-5 mr-2" />
               Site Oficial
             </a>
+          </div>
+          <div className="flex flex-col items-center gap-2 mb-4">
+            <p className="text-green-300 text-sm flex items-center">
+              <Mail className="w-4 h-4 mr-2" />
+              Contato: <a href="mailto:casalinuxos@gmail.com" className="underline ml-1">casalinuxos@gmail.com</a>
+            </p>
+            <p className="text-green-300 text-sm">
+              Professor Fábio Dias Silveira / Contato: <a href="mailto:fabio140185@gmail.com" className="underline">fabio140185@gmail.com</a>
+            </p>
           </div>
           <p className="text-green-300 text-sm">
             Feito com ❤️ para a comunidade brasileira
