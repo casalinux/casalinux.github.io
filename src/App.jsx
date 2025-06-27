@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Button } from '@/components/ui/button.jsx'
-import { Download, Monitor, Terminal, Settings, Leaf, Globe, BookOpen, Mail } from 'lucide-react'
+import { Download, Monitor, Terminal, Settings, Leaf, Globe, BookOpen, Mail, Youtube } from 'lucide-react'
 import casaLinuxLogo from './assets/Casa_Linux_1.0.png'
 import './App.css'
 
@@ -81,7 +81,7 @@ function App() {
             Baixar Casa Linux
           </Button>
           <p className="text-green-200 text-sm mt-4 text-center">
-            Versão 1.1 - Gratuito e Open Source
+            Versão 1.0 - Gratuito e Open Source
           </p>
         </div>
 
@@ -95,6 +95,10 @@ function App() {
             <a href="https://casalinux.github.io/" target="_blank" rel="noopener noreferrer" className="text-green-300 hover:text-green-100 transition-colors duration-200 flex items-center">
               <Globe className="w-5 h-5 mr-2" />
               Site Oficial
+            </a>
+            <a href="https://www.youtube.com/@CasaLinux" target="_blank" rel="noopener noreferrer" className="text-green-300 hover:text-green-100 transition-colors duration-200 flex items-center">
+              <Youtube className="w-5 h-5 mr-2" />
+              Canal no YouTube
             </a>
           </div>
           <div className="flex flex-col items-center gap-2 mb-4">
