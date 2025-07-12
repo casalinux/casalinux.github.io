@@ -44,7 +44,7 @@ function App() {
             Casa Linux
           </h1>
           <p className="text-xl md:text-2xl text-green-100 mb-4 max-w-3xl mx-auto leading-relaxed">
-            A remasterização Linux brasileira que une simplicidade, performance e inovação
+            A remasterização brasileira do Linux baseada no Debian que une simplicidade, desempenho e inovação
           </p>
           <p className="text-lg text-green-200 max-w-2xl mx-auto">
             Desenvolvida com carinho para a comunidade brasileira, oferecendo uma experiência única e intuitiva
