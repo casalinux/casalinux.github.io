@@ -1,7 +1,0 @@
-# Repositório de kernels personalizados (Casa Kernel)
-deb [trusted=yes] https://downloads.sourceforge.net/project/casa-kernel/kernel/ ./
-
-# Repositório de pacotes do sistema Casa Linux
-deb [trusted=yes] https://downloads.sourceforge.net/project/casa-debs/pacotes/ ./
-
-
