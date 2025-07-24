@@ -81,7 +81,7 @@ function App() {
             Baixar Casa Linux
           </Button>
           <p className="text-green-200 text-sm mt-4 text-center">
-            Versão 1.3 - Gratuito e Open Source
+            Versão 2025 - Gratuito e Open Source
           </p>
         </div>
 
@@ -114,7 +114,7 @@ function App() {
             Feito com ❤️ para a comunidade brasileira
           </p>
           <p className="text-green-400 text-xs mt-2">
-            © 2024 Casa Linux - Todos os direitos reservados
+            © 2025 Casa Linux - Todos os direitos reservados
           </p>
         </div>
       </div>
