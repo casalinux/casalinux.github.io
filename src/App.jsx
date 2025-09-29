@@ -81,7 +81,7 @@ function App() {
             Baixar Casa Linux
           </Button>
           <p className="text-green-200 text-sm mt-4 text-center">
-            Versão 2025 - Gratuito e Open Source
+            Versão 2025.2 - Gratuito e Open Source
           </p>
         </div>
 
